@@ -1,5 +1,5 @@
 This is my Cucumber Project which contains automated login tests on the Experfy page.
-There are 3 tests in the features file: login_client, login_expert and invalid_login. 
+There are 3 tests in the "CucumberFirstProject/features" folder: login_client, login_expert and invalid_login. 
 Each of them has a corresponding step_definitions.
 
 **LOGIN_CLIENT**

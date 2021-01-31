@@ -25,8 +25,8 @@ Then("I should see Experfy homepage") do
   urlNya = driver.current_url
   expect(urlNya).to include("cloud")
   sleep (5)
-  getTextForm = driver.find_element(:css, '.home__header__title').text
-  expect(getTextForm).to eq("Let's Build the Future of Work Together")
+  getTextHome = driver.find_element(:css, '.home__header__title').text
+  expect(getTextHome).to eq("Let's Build the Future of Work Together")
 end
 
 Then("I will click on Admin dropdown") do

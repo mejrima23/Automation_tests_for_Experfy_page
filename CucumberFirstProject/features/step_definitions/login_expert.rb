@@ -21,6 +21,6 @@ Then("We will click on Continue") do
 end
 
 Then("We should see: reCAPTCHA Authorization Failed. Please try again later, message") do
-  getTextForm = driver.find_element(:css, '.form-alert__body').text
-  expect(getTextForm).to eq("reCAPTCHA Authorization Failed. Please try again later.")
+  getAlertBody = driver.find_element(:css, '.form-alert__body').text
+  expect(getAlertBody).to eq("reCAPTCHA Authorization Failed. Please try again later.")
 end

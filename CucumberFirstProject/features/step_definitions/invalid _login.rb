@@ -17,6 +17,6 @@ Then("Click on Continue button") do
 end
 
 Then("We should see 'There is no such email in the system' message") do
-  getTextForm = driver.find_element(:css, '.form-alert__body').text
-  expect(getTextForm).to eq("There is no such email in the system")
+  getAlertBody = driver.find_element(:css, '.form-alert__body').text
+  expect(getAlertBody).to eq("There is no such email in the system")
 end
