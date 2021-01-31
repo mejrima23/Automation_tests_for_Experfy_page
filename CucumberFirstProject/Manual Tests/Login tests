@@ -1,0 +1,35 @@
+1. Clients login and logout
+
+Prediction
+Open browser and go to login page using url:  https://staging.experfy.com/clients/sign_in
+
+Input Username: lee_keebler@williamson.org - Username is successfully entered.
+Click on "Continue" button  -  The password field is open.
+Input Password: P@s5word3 - Password is successfully entered.
+Click on "Continue" button  -  The user is successfully logged in.
+Click on "Users profile dropdown"   -   "Users profile dropdown" is shown.
+Click on "Logout"   -   The user is successfully logged out.
+Close browser   -   The browser is closed.
+
+2. Users login
+
+Prediction
+Open browser and go to login page using url:  https://staging.experfy.com/users/sign_in
+
+Input Username: melodie_bernhard@faykling.org - Username is successfully entered.
+Input Password: P@s5word5 - Password is successfully entered.
+Click on "Continue" button.
+Validation : reCAPTCHA Authorization Failed. Please try again later.
+
+3. Invalid login
+
+Prediction
+Open browser and go to login page using url:  https://staging.experfy.com/clients/sign_in
+
+Input Username: lee_kee@williamson.org - Username is successfully entered.
+Click on "Continue" button.
+Validation: There is no such email in the system.
+
+
+
+
