@@ -8,5 +8,5 @@ Feature: Client login to the Experfy Application
     Then I should see Experfy homepage
     Then I will click on Admin dropdown
     Then I will click on Logout
-    When We are on the Experfy Client login page
+    When Again, we are on the homepage
 
